@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html><head>
+<title>Delay OTA Guide</title>
+<meta property="og:title" content="DelayOTA Guide">
+<style>body{background-color: #36393E;color: #FFFFFF;font-family:'Open Sans',sans-serif;}</style><style>a:link{color: #808080;}a:visited{color: #808080;}a:hover{color: #3C414F}a:active{color: #808080;}</style></head>
+
+
+<body>
+<center>
+<h1>Delay OTA Guide <sup>written by Flower</sup></h1>
+<p>You can update using DelayOTA to versions for up to <b>90 days</b> after a new version is released. </p>
+<hr>
+<h2>Opening notes</h2>
+<p></p>
+<p>You will need to wipe your device when you supervise your device if you're unjailbroken, so I suggest you take a backup while unsupervised. Either using iCloud or using iMazing/Apple configurator 2) DON'T BACKUP IF YOU'RE JAILBROKEN!
+<p style="color:rgb(228, 56, 56)">Your device has a chance to enter a recovery loop if you use this method, if you somehow do you'll have to update to what's signed/or use blobs.</p>
+
+<h4>Color coded arrows</h4>
+<p><img src="assets\dots\red.png" width="16" height="16"> = After Pink </p>
+<p><img src="assets\dots\pink.png" width="16" height="16"> = Before Red </p>
+<p><img src="assets\dots\blue.png" width="16" height="16"> = Optional </p>
+<hr>
+</center>
+
+<h2>For Jailbroken devices: (Easiest)</h2>
+<p></p>
+<p><b>1.</b> Install <b>supervised enabler</b> in your package manager by adding
+<a href="https://sharerepo.stkc.win/?repo=https://cydia.ichitaso.com/">this</a>
+repo, and then searching "supervised enabler" in the search area.</p>
+<ul>
+<li><b>For iOS 12</b> and lower
+<ul>
+<li>Since you can't install Supervised Enabler you'll have to edit the file manually. Go on your mobile browser and press <a href=filza://var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/CloudConfigurationDetails.plist>here!!</a> It will show you where the file in Filza File Manager is. Now set the <b>IsSupervised</b> argument in the plist to <b>YES</b>.</li>
+</ul>
+</li>
+</ul>
+<p></p>
+<p></p>
+<p><b>2.</b> Once done install the profile you want to go to
+<a href="https://dhinakg.github.io/delayed-otas.html">here</a>
+(It will show the current available versions right away).</p>
+<p></p>
+<p><b>3.</b> Go to settings and search for the profile, either press on <b>Profile Downloaded</b> on the main page or go to <b>Settings -> General -> Profiles & Device Management</b>.</p>
+<p></p>
+<p><b>4.</b> Press on <b>install</b> when you press on the profile.
+<p></p>
+<p><b>5.</b> Next, Restore RootFS <b>before</b> upgrading, to ensure <b>nothing messes up</b> when you update. (This wont erase any personal data i.e photos & messages).</p>
+<p></p>
+<ul>
+<li><b>Unc0ver</b>
+<ul>
+<li>Reboot the device then open unc0ver. Tap the gear icon and enable the Restore RootFS</b> toggle, then tap <b>Restore RootFS</b> at the main screen.</li>
+</ul>
+</li>
+<p></p>
+<li><b>Chimera / Odyssey / Taurine</b>
+<ul>
+<li>Reboot, open Chimera / Odyssey / Taurine, toggle on <b>Restore RootFS</b>, then tap <b>Jailbreak</b>.</li>
+</ul>
+</li>
+<p></p>
+<li><b>Checkra1n / Odysseyra1n</b>
+<ul>
+<li>Open the checkra1n app on your home screen and tap <b>Restore System</b>. If the icon has <b>disappeared</b> or you get <b>Restore Error: General</b>, reboot and re-jailbreak and try again.</li>
+</ul>
+</li>
+</ul>
+<p></p>
+<p><b>6.</b> Once done it will <b>reboot</b> your phone and your jailbreak will be <b>removed</b>, go to <b>Settings -> General -> Software Update</b> and see if the version you chose is there. (If it doesnt show up reboot your phone or do all the steps all over <b>again</b>)</p>
+<p></p>
+<p><b>7.</b> Press <b>Download and Install</b> and you should see the progress bar move.</p>
+<h3>You're Done!</h3>
+<p></p>
+<p>If you're done it correctly your phone should update like any other OTA update.</p>
+<hr>
+
+
+<h2>For Non-Jailbroken devices: (Hardest)</h2>
+<p></p>
+<ul>
+
+<h3><li><b>Windows:</b> Using iMazing: (Paid)</h3>
+<ul>
+<p><b>1.</b> Download and install iMazing from
+<a href="https://imazing.com/download/windows">here</a></p>
+<p></p>
+<p><b>2.</b> Go through the setup and press the <b>Supervision</b> button on the right.</p>
+<img src="assets\windows\Supervise Device\2.png" style="height:250px;">
+<p></p>
+<p><b>3.</b> It will show you what you can do with Supervision so press <b>Next</b>.</p>
+<p></p>
+<p><b>4.</b> It will now show the Supervision screen showing <b>Supervise <iPhone Name></b> at the top. Press the button right below <b>Organization</b>. Press <b>Choose</b>.</p>
+<img src="assets\windows\Supervise Device\4.png" style="height:250px;">
+<p></p>
+<p><b>5.</b> A new window will appear showing the Organizations, Press the <b>+</b> Button on the bottom left corner of that window.</p>
+<img src="assets\windows\Supervise Device\5.png" style="height:250px;">
+<p></p>
+<p><b>6.</b> Add a name (It can we whatever you want), and press <b>Save</b>, now press <b>Choose</b>.</p>
+<p></p>
+<p><b>7.</b> Press <b>Next</b> and it will warn you that it will erase all contents, type the <b>number</b> it shows you in the text box to <b>confirm</b>, then press <b>Next</b> (It will now erase your phone and supervise it, it wont update the phone.)</p>
+<img src="assets\windows\Supervise Device\7_1.png" style="height:250px;">
+<p></p>
+<p><b>8.</b> Your phone will <b>reboot</b> will probably show a setup screen, go set it up.</p>
+<p><b>9.</b> Once done install the profile you want to go to
+<a href="https://dhinakg.github.io/delayed-otas.html">here</a>
+(It will show the current available versions right away).</p>
+<p></p>
+<p><b>10.</b> Go to settings and search for the profile, either press on <b>Profile Downloaded</b> on the main page or go to <b>Settings -> General -> Profiles & Device Management</b>.</p>
+<p></p>
+<p><b>11.</b> Reboot your phone and then go to <b>Settings -> General -> Software Update</b>, you should see the version you picked there.</p>
+<p></p>
+<p><b>12.</b> Press <b>Download and Install</b> and you should see the progress bar move.</p>
+</ul>
+<p></p>
+<p></p>
+
+<h3><li><b>MacOS:</b> Using Apple Configurator 2:</h3>
+<ul>
+<p><b>1.</b> Go to the App Store on your Mac and search for <b>Apple Conifgurator 2</b>, install it from there.</p>
+<p></p>
+<p><b>2.</b> Do the setup like usual and press <b>Get started</b> if you haven't already.</p>
+<p></p>
+<p><b>3.</b> <b>Press</b> on your device, and press <b>Prepare</b> and select <b>Manual supervision</b>, press <b>Next</b>.</p>
+<img src="assets\macos\Supervise Device\3_1.png" style="height:250px;">
+<p></p>
+<p><b>4.</b> Choose <b>Do not enroll in MDM</b>, press <b>Next</b>.</p>
+<p></p>
+<img src="assets\macos\Supervise Device\4.png" style="height:250px;">
+<p><b>5.</b> Go to Organization and press <b>New Organization</b>. This part is optional, either sign into your <b>Apple Id</b> or press <b>Skip</b>.</p>
+<img src="assets\macos\Supervise Device\5_1.png" style="height:250px;">
+<p></p>
+<ul>
+<li><p>If you chose <b>skip</b>, add a <b>name</b>, and press <b>Next</b>.</p></li>
+</ul>
+<p></p>
+<p><b>6.</b> Press <b>Generate a supervision identity</b> (in case you've done this before, pick Choose existing supervision identity option).</p>
+<img src="assets\macos\Supervise Device\7.png" style="height:250px;">
+<p></p>
+<p><b>7.</b> Configure <b>iOS Setup Assistant</b> as you choose, it doesnt really matter what you do here.</p>
+<p></p>
+<p><b>8.</b> Press <b>Prepare</b> (It will now <b>erase</b> your phone and supervise it, it wont update the phone).</p>
+<p></p>
+<p><b>9.</b> Your phone will <b>reboot</b> will probably show a setup screen, go set it up (If you chose not to in the Configure iOS Setup Assistant you can skip this step).</p>
+<p></p>
+<p><b>10.</b> Once done install the profile you want to go to
+<a href="https://dhinakg.github.io/delayed-otas.html">here</a>
+(It will show the current available versions right away).</p>
+<p></p>
+<p><b>11.</b> Go to settings and search for the profile, either press on <b>Profile Downloaded</b> on the main page or go to <b>Settings -> General -> Profiles & Device Management</b>.</p>
+<p></p>
+<p><b>12.</b> Reboot your phone and then go to <b>Settings -> General -> Software Update</b>, you should see the version you picked there.</p>
+<p></p>
+<p><b>13.</b> Press <b>Download and Install</b> and you should see the progress bar move.</p>
+</ul>
+</ul>
+<p></p>
+<h3>You're Done!</h3>
+<p></p>
+<p>If you done it correctly your phone should update like any other OTA update.</p>
+<hr>
+
+
+<h2>Closing notes:</h2>
+<p></p>
+<p>If you wish to restore from a <b>backup</b> from <b>iMazing/Apple Configurator 2</b> after updating use DelayOTA follow below (Note that restoring from a backup will remove your supervision).</p>
+<ul>
+
+<h3><li><b>Windows:</b> Using iMazing: (Paid)</h3>
+<ul>
+<p><b>1.</b> In iMazing, press <b>Restore a Backup</b> on the Right.</p>
+<img src="assets\windows\Restore from backup\1.png" style="height:250px;">
+<p></p>
+<p><b>2.</b> iMazing will probably automatically select your backup, press <b>Choose</b>.</p>
+<p></p>
+<p><b>3.</b> The Restore Options page will come up, choose what you want to restore from and press <b>Next</b>.</p>
+<p></p>
+<p><b>4.</b> You'll need to turn off <b>Find My iPhone</b> for this step, Go to <b>Settings -> Apple ID -> your device -> Find My <your device></b> and turn it <b>off</b>.</p>
+<p></p>
+<p><b>5.</b> Once done you'll get a <b>Confirm Restore</b> screen, press <b>Restore</b>.</p>
+</ul>
+
+<h3><li><b>MacOS:</b> Using Apple Conifgurator 2:</h3>
+<ul>
+<p><b>1.</b> In Apple Conifgurator 2, select your device you want to <b>erase</b>.</p>
+<p></p>
+<p><b>2.</b> Do one of the following:</p>
+<ul>
+<li><p>Choose <b>Actions -> Restore from Backup</b>.</p>
+<img src="assets\macos\Restore from backup\2_1.png" style="height:250px;">
+<p></p>
+<li><p>Control + Left Click (or Right Click) your selected device and choose <b>Restore from Backup</b>.</p>
+<img src="assets\macos\Restore from backup\2_2.png" style="height:250px;">
+</ul>
+<p></p>
+<p><b>3.</b> <b>Choose</b> your backup and press <b>Restore</b></p>
+<ul>
+<li><p>If you get a prompt saying you need to turn off <b>Find My</b> in <b>Settings>Apple ID -> your device -> Find My <your device></b>, turn it <b>off</b>.</p>
+</ul>
+</ul>
+</ul>
+
+
+<h3>You're Done!</h3>
+<p></p>
+<p>If you wish to <b>Erase</b> and <b>Un-Supervise</b> after updating your device follow the steps below (Doing this will UnSupervise the device and Erase it).</p>
+<ul>
+<h3><li><b>Windows:</b> Using iMazing: (Paid)</h3>
+<ul>
+<p><b>1.</b> On the right <b>scroll</b> all the way down and press <b>Erase All Content</b> (Doing this will UnSupervise the device and Erase it).</p>
+<img src="assets\windows\Erase Device\1.png" style="height:250px;">
+<p></p>
+<p><b>3.</b> Once booted go through the normal setup and your phone should be unsupervised.</p>
+</ul>
+<h3><li><b>MacOS:</b> Using Apple Conifgurator 2:</h3>
+<ul>
+<p><b>1.</b> <b>Select</b> your device you want to <b>Erase</b>.</p>
+<p></p>
+<p><b>2.</b> Do one of the following:</p>
+<ul>
+<li><p>Choose <b>Actions -> Advanced -> Erase All Content and Settings</b>.</p>
+<img src="assets\macos\Erase Device\2_1.png" style="height:250px;">
+<p></p>
+<li><p>Control + Left Click (or Right Click) your selected device and choose <b>Advanced -> Erase All Content and Settings</b>.</p>
+<img src="assets\macos\Erase Device\2_2.png" style="height:250px;">
+</ul>
+<p></p>
+<p><b>3.</b> Once booted go through the normal setup and your phone should be <b>Un-Supervised</b>.</p>
+</ul>
+</ul>
+</ul>
+
+
+<h3>You're Done!</h3>
+<p>If you done it correctly should either have restored from a backup or has been erased entirely.</p>
+<hr>
+<center>
+<h1>Still need help?</h1>
+<p>If you still need assistance join the <a href="https://discord.gg/jb">r/Jailbreak</a> or <a href="https://discord.gg/sileo">Sileo</a> Discord server.</p>
+</center>
