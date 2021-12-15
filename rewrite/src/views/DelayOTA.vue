@@ -35,27 +35,27 @@
             <ul role="list">
               <li>1. Download and install <a class="text-white">iMazing</a> from <a class="text-white" href="https://imazing.com/download/windows">this link</a>.</li>
               <li>2. Finish the setup process, then, press the <a class="text-white">Supervision</a> button on the right.</li>
-              <blockquote class="relative bg-white rounded-lg shadow-lg mt-3 mb-3">
+              <blockquote class="relative bg-semidark rounded-lg shadow-lg mt-3 mb-3">
                 <div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
                 <img src="../assets/img/windows/supervise_device_1.png" alt="Workcation" class="h-auto" />
                 </div>
               </blockquote>
               <li>3. Select <a class="text-white">Next</a>.</li>
               <li>4. Select <a class="text-white">Choose</a>.</li>
-              <blockquote class="relative bg-white rounded-lg shadow-lg mt-3 mb-3">
+              <blockquote class="relative bg-semidark rounded-lg shadow-lg mt-3 mb-3">
                 <div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
                 <img src="../assets/img/windows/supervise_device_2.png" alt="Workcation" class="h-auto" />
                 </div>
               </blockquote>
               <li>5. A new window displaying your organizations will open. Select the <a class="text-white">+</a> button in the bottom left.</li>
-              <blockquote class="relative bg-white rounded-lg shadow-lg mt-3 mb-3">
+              <blockquote class="relative bg-semidark rounded-lg shadow-lg mt-3 mb-3">
                 <div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
                 <img src="../assets/img/windows/supervise_device_3.png" alt="Workcation" class="h-auto" />
                 </div>
               </blockquote>
               <li>6. Add a name. (It can be whatever you want). Select <a class="text-white">Save</a>, then <a class="text-white">Choose</a>.</li>
               <li>7. Select <a class="text-white">Next</a>. Type the number shown to confirm, then select <a class="text-white">Next</a>.</li>
-              <blockquote class="relative bg-white rounded-lg shadow-lg mt-3 mb-3">
+              <blockquote class="relative bg-semidark rounded-lg shadow-lg mt-3 mb-3">
                 <div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
                 <img src="../assets/img/windows/supervise_device_4.png" alt="Workcation" class="h-auto" />
                 </div>
@@ -71,25 +71,25 @@
               <li>1. Install <a class="text-white">Apple Configutator 2</a> from the App Store.</li>
               <li>2. Finish the setup process, then select <a class="text-white">Get Started</a>.</li>
               <li>3. On your device, select <a class="text-white">Prepare</a>. Then, select <a class="text-white">Manual Supervision</a>. Select <a class="text-white">Next</a>.</li>
-              <blockquote class="relative bg-white rounded-lg shadow-lg mt-3 mb-3">
+              <blockquote class="relative bg-semidark rounded-lg shadow-lg mt-3 mb-3">
                 <div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
                 <img src="../assets/img/macos/supervise_device_1.png" alt="Workcation" class="h-auto" />
                 </div>
               </blockquote>
               <li>4. Select <a class="text-white">Do not enroll in MDM</a>. Select <a class="text-white">Next</a>.</li>
-              <blockquote class="relative bg-white rounded-lg shadow-lg mt-3 mb-3">
+              <blockquote class="relative bg-semidark rounded-lg shadow-lg mt-3 mb-3">
                 <div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
                 <img src="../assets/img/macos/supervise_device_2.png" alt="Workcation" class="h-auto" />
                 </div>
               </blockquote>
               <li>5. Under <a class="text-white">Organization</a>, select <a class="text-white">New Organization</a>. Either sign in with your Apple ID, or select <a class="text-white">skip</a>.</li>
-              <blockquote class="relative bg-white rounded-lg shadow-lg mt-3 mb-3">
+              <blockquote class="relative bg-semidark rounded-lg shadow-lg mt-3 mb-3">
                 <div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
                 <img src="../assets/img/macos/supervise_device_3.png" alt="Workcation" class="h-auto" />
                 </div>
               </blockquote>
               <li>6. Select <a class="text-white">Generate a supervision identity</a>.</li>
-              <blockquote class="relative bg-white rounded-lg shadow-lg mt-3 mb-3">
+              <blockquote class="relative bg-semidark rounded-lg shadow-lg mt-3 mb-3">
                 <div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
                 <img src="../assets/img/macos/supervise_device_4.png" alt="Workcation" class="h-auto" />
                 </div>
@@ -115,7 +115,7 @@
             <p class="text-xl leading-8 font-semibold tracking-light mb-2">Windows: Using iMazing (Paid)</p>
             <ul role="list">
                 <li>1. In iMazing, select <a class="text-white">Restore a Backup</a>.</li>
-                <blockquote class="relative bg-white rounded-lg shadow-lg mt-3 mb-3">
+                <blockquote class="relative bg-semidark rounded-lg shadow-lg mt-3 mb-3">
                     <div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
                         <img src="../assets/img/windows/restore_from_backup_1.png" alt="Workcation" class="h-auto" />
                     </div>
@@ -136,13 +136,13 @@
                 <div class="mt-3">
                     <ul role="list">
                         <li>• Choose <a class="text-white">Actions -> Restore from Backup</a>.</li>
-                        <blockquote class="relative bg-white rounded-lg shadow-lg mt-3 mb-3">
+                        <blockquote class="relative bg-semidark rounded-lg shadow-lg mt-3 mb-3">
                         <div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
                             <img src="../assets/img/macos/restore_from_backup_1.png" alt="Workcation" class="h-auto" />
                         </div>
                         </blockquote>
                         <li>• Control + Left Click (or Right Click) your selected device and choose <a class="text-white">Restore from Backup</a>.</li>
-                        <blockquote class="relative bg-white rounded-lg shadow-lg mt-3 mb-3">
+                        <blockquote class="relative bg-semidark rounded-lg shadow-lg mt-3 mb-3">
                         <div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
                             <img src="../assets/img/macos/restore_from_backup_2.png" alt="Workcation" class="h-auto" />
                         </div>
@@ -161,7 +161,7 @@
             <p class="text-xl leading-8 font-semibold tracking-light mb-2">Windows: Using iMazing (Paid)</p>
             <ul role="list">
                 <li>1. On the right, scroll all the way down and select <a class="text-white">Erase All Content</a>.</li>
-                <blockquote class="relative bg-white rounded-lg shadow-lg mt-3 mb-3">
+                <blockquote class="relative bg-semidark rounded-lg shadow-lg mt-3 mb-3">
                     <div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
                         <img src="../assets/img/windows/erase_device_1.png" alt="Workcation" class="h-auto" />
                     </div>
@@ -179,13 +179,13 @@
                 <div class="mt-3">
                     <ul role="list">
                         <li>• Choose <a class="text-white">Actions -> Advanced -> Erase All Content and Settings</a>.</li>
-                        <blockquote class="relative bg-white rounded-lg shadow-lg mt-3 mb-3">
+                        <blockquote class="relative bg-semidark rounded-lg shadow-lg mt-3 mb-3">
                         <div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
                             <img src="../assets/img/macos/erase_device_1.png" alt="Workcation" class="h-auto" />
                         </div>
                         </blockquote>
                         <li>• Control + Left Click (or Right Click) your selected device and choose <a class="text-white">Advanced -> Erase All Content and Settings</a>.</li>
-                        <blockquote class="relative bg-white rounded-lg shadow-lg mt-3 mb-3">
+                        <blockquote class="relative bg-semidark rounded-lg shadow-lg mt-3 mb-3">
                         <div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
                             <img src="../assets/img/macos/erase_device_2.png" alt="Workcation" class="h-auto" />
                         </div>
